@@ -1,0 +1,14 @@
+div.error,
+#flash_failure {
+  background: red;
+  color: black; }
+
+div.notice,
+#flash_notice {
+  background: yellow;
+  color: black; }
+
+div.success,
+#flash_success {
+  background: green;
+  color: white; }

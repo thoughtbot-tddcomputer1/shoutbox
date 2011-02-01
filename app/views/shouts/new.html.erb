@@ -1,0 +1,19 @@
+<%= form_for @shout do |form| %>
+	<%= form.error_messages %>
+
+	<%= form.label :name %>
+	<%= form.text_field :name %>
+	
+	<%= form.label :body %>
+	<%= form.text_area :body %>
+	
+	<%= form.submit %>
+	
+	<hr/>
+	<%= form.class %>
+	<hr/>
+	<pre>
+	<%= form.inspect %>
+	</pre>
+
+<% end %>
